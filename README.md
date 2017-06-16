@@ -1,4 +1,4 @@
-gpxtimeshift
+gpxgapsplit
 ==========
 
 Command line tool to split GPX file by specified gap.
