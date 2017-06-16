@@ -3,7 +3,7 @@
   "description": "Command line tool to split GPX file by specified gap.",
   "main": "gpxgapsplit.js",
   "bin": {
-    "gpxtimeshift": "./cli.js"
+    "gpxgapsplit": "./cli.js"
   },
   "@PARTPIPE@VERKEY@PARTPIPE@": "@PARTPIPE@VERSION@PARTPIPE@",
   "dependencies": {
