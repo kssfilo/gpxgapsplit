@@ -7,7 +7,7 @@ Fs=require 'fs'
 
 arg=process.argv[2]
 
-if arg is '-h' or !arg or process.argv.length<4
+if arg is '-h' or !arg or process.argv.length<3
 	console.log """
 		gpxgapsplit [-ht] <gap> [<output prefix>] < <gpxfile>
 		
