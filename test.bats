@@ -1,7 +1,7 @@
 #!/usr/bin/env bats
 
 @test "1d" {
-	[ "$(rm hoge*.gpx;cat test/hiking.gpx|dist/cli.js 1d hoge;cat hoge*.gpx|shasum)" = "c9e5867ee6786085a29f1d22f2329af9d8615dfb  -" ]
+	[ "$(rm hoge*.gpx;cat test/hiking.gpx|dist/cli.js 1d hoge;cat hoge*.gpx|shasum)" = "34b8cb853085112678c9044c965d1c1791ae018c  -" ]
 }
 
 @test "2d" {
@@ -13,5 +13,5 @@
 }
 
 @test "defaultPrefix" {
-	[ "$(rm hoge*.gpx;cat test/hiking.gpx|dist/cli.js 1d ;cat gpxgapsplit-*.gpx|shasum)" = "c9e5867ee6786085a29f1d22f2329af9d8615dfb  -" ]
+	[ "$(rm hoge*.gpx;cat test/hiking.gpx|dist/cli.js 1d ;cat gpxgapsplit-*.gpx|shasum)" = "34b8cb853085112678c9044c965d1c1791ae018c  -" ]
 }

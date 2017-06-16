@@ -27,6 +27,7 @@ class Target
 			@data.gpx.bounds[0].$.minlon=_.min @lons
 
 		@observer.next @data
+		@init()
 
 gpxGapSplit=(gpxString,gapSeconds)->
 	Rx.Observable.of gpxString
